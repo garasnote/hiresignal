@@ -1,4 +1,4 @@
-# Market Warehouse — job-market data platform
+# HireSignal — a job-market warehouse
 
 A small, end-to-end data platform over the Colombian/Spanish job market: scrape,
 land raw, model a star schema in SQL, export BI-ready tables, dashboard in Metabase.
