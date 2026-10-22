@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: offline pipeline
+        run: python pipeline/run.py --offline
+
+      - name: show marts
+        run: |
+          echo "### mart_market_by_family"
+          cat exports/mart_market_by_family.csv
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exports
+          path: exports/
+          if-no-files-found: error

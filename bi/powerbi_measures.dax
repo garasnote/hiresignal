@@ -1,0 +1,54 @@
+// Power BI model for data-platform (load the CSVs in exports/)
+//
+// Relationships (star schema):
+//   fact_offer[country_key]  -> dim_country[country_key]
+//   fact_offer[role_key]     -> dim_role[role_key]
+//   fact_offer[date_key]     -> dim_date[date_key]
+//   fact_application[country_key] -> dim_country[country_key]
+//   fact_application[role_key]    -> dim_role[role_key]
+//   fact_application[status_key]  -> dim_status[status_key]
+//   fact_application[date_key]    -> dim_date[date_key]
+// Set all relationships to single direction, many-to-one.
+
+// ---------- measures ----------
+
+Offers = COUNTROWS ( fact_offer )
+
+Junior Offers = CALCULATE ( COUNTROWS ( fact_offer ), fact_offer[is_junior] = 1 )
+
+Junior Share % =
+DIVIDE ( [Junior Offers], [Offers] )
+
+Median Salary COP =
+MEDIANX ( fact_offer, fact_offer[salary_min_cop] )
+
+Avg Salary COP =
+CALCULATE ( AVERAGE ( fact_offer[salary_min_cop] ), fact_offer[salary_min_cop] > 0 )
+
+Offers with Salary % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_offer ), NOT ISBLANK ( fact_offer[salary_min_cop] ) ),
+    [Offers]
+)
+
+Applications = COUNTROWS ( fact_application )
+
+Applied = CALCULATE ( COUNTROWS ( fact_application ), dim_status[status] = "Applied" )
+
+Interviews or Better =
+CALCULATE (
+    COUNTROWS ( fact_application ),
+    dim_status[status] IN { "Interview", "Offer" }
+)
+
+Interview Rate % =
+DIVIDE ( [Interviews or Better], [Applied] )
+
+Last Application Date =
+MAX ( dim_date[date] )
+
+// ---------- what each measure answers ----------
+// Offers / Junior Share %      -> how big is the market for this role family, and how much of it is junior
+// Median Salary COP            -> what the market actually pays, not what one ad claims
+// Offers with Salary %         -> how much of the market hides the salary (data-quality signal)
+// Interview Rate %             -> my own funnel, per country and per role family
