@@ -2,7 +2,7 @@
 """Run the whole pipeline: scrape -> raw -> star schema -> marts -> CSV exports.
 
     python3 pipeline/run.py --offline        # fixture, no network (used by CI)
-    python3 pipeline/run.py --live           # scrape both boards (~1-2 min)
+    python3 pipeline/run.py --live --pages 15   # scrape three boards (thousands of postings)
     python3 pipeline/run.py --live --enrich 15   # also read experience from 15 detail pages
 """
 import argparse
@@ -19,6 +19,9 @@ def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--offline", action="store_true", help="use fixtures/sample_offers.json")
     p.add_argument("--live", action="store_true", help="scrape the boards")
+    p.add_argument("--pages", type=int, default=8, metavar="N",
+                   help="pages per search term (30-64 postings each)")
+    p.add_argument("--workers", type=int, default=8, help="concurrent requests")
     p.add_argument("--enrich", type=int, default=0, metavar="N",
                    help="read 'Experiencia mínima' from N detail pages")
     p.add_argument("--tracker", default=None, help="path to job_tracker/data.json")
@@ -28,7 +31,7 @@ def main() -> int:
         p.error("choose --offline or --live")
 
     print("1/3  fetching postings…")
-    offers = sources.scrape_all(offline=args.offline)
+    offers = sources.scrape_all(offline=args.offline, pages=args.pages, workers=args.workers)
     print(f"     {len(offers)} postings")
 
     if args.enrich:
