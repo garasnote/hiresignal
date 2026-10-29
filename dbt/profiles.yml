@@ -1,0 +1,7 @@
+hiresignal:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "~/Documents/JobApp/portfolio/hiresignal/data/hiresignal_dbt.duckdb"
+      threads: 4

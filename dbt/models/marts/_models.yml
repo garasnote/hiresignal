@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: fct_postings
+    description: One row per live posting after collapsing duplicates. Grain is the posting URL.
+    columns:
+      - name: posting_key
+        tests: [unique, not_null]
+      - name: url
+        tests: [unique, not_null]
+      - name: company_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_company')
+              field: company_key
+      - name: ats_key
+        tests:
+          - relationships:
+              to: ref('dim_ats')
+              field: ats_key
+      - name: location_key
+        tests:
+          - relationships:
+              to: ref('dim_location')
+              field: location_key
+      - name: role_key
+        tests:
+          - relationships:
+              to: ref('dim_role')
+              field: role_key
+      - name: description_chars
+        tests: [not_null]
+
+  - name: dim_company
+    columns:
+      - name: company_key
+        tests: [unique, not_null]
+  - name: dim_ats
+    columns:
+      - name: ats_key
+        tests: [unique, not_null]
+  - name: dim_location
+    columns:
+      - name: location_key
+        tests: [unique, not_null]
+  - name: dim_role
+    columns:
+      - name: role_key
+        tests: [unique, not_null]
+  - name: int_postings_deduped
+    description: Collapses the same requisition listed once per city; longest body wins.
+    columns:
+      - name: url
+        tests: [unique, not_null]
+
+  - name: mart_ats_share
+    columns:
+      - name: ats
+        tests: [unique, not_null]
+  - name: mart_role_mix
+    columns:
+      - name: role_family
+        tests: [unique, not_null]
+  - name: mart_quality
+    columns:
+      - name: rows_landed
+        tests: [not_null]
