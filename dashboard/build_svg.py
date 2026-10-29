@@ -71,11 +71,44 @@ def kpi(x, y, w, label, value, note=""):
             text(x + 16, y + 63, note, 10.5, MUTED)]
 
 
-def svg(m: dict) -> str:
+def timeline_chart(x, y, w, h, snaps):
+    """A line of postings per snapshot date, drawn only when there are two."""
+    vals = [s["kept"] for s in snaps]
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or max(hi * 0.02, 1)
+    lo, hi = lo - span * 0.25, hi + span * 0.25
+    n = len(snaps)
+    pts = []
+    for i, s in enumerate(snaps):
+        px = x + (w * i / (n - 1) if n > 1 else w / 2)
+        py = y + h - (h * (s["kept"] - lo) / (hi - lo))
+        pts.append((px, py))
+    out = [f'<polyline fill="none" stroke="{ACCENT}" stroke-width="2.5" stroke-linejoin="round" '
+           f'points="{" ".join(f"{px:.1f},{py:.1f}" for px, py in pts)}"/>']
+    for (px, py), s in zip(pts, snaps):
+        out.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="3.5" fill="{ACCENT}"/>')
+        out.append(text(px, py - 12, f'{s["kept"]:,}', 10.5, MUTED, "500", "middle"))
+    if n == 1:
+        out.append(text(x + w / 2, y + h / 2 - 26,
+                        "first snapshot — the line starts when there is a second day",
+                        11, MUTED, "400", "middle"))
+    out.append(text(x, y + h + 18, snaps[0]["date"], 10.5, MUTED, "500"))
+    out.append(text(x + w, y + h + 18, snaps[-1]["date"], 10.5, MUTED, "500", "end"))
+    out.append(text(x + w / 2, y + h + 18,
+                    f'{n} snapshot' + ('s' if n != 1 else '') + f' · first {snaps[0]["date"]}',
+                    10.5, MUTED, "400", "middle"))
+    return out
+
+
+def svg(m: dict, timeline: dict | None = None) -> str:
+    all_snaps = (timeline or {}).get("snapshots") or []
+    # only the fixed panel is a time series; whole-market snapshots are a different scope
+    snaps = [x for x in all_snaps if x.get("scope") == "panel" or x.get("boards")]
+    h = H + 200 if snaps else H
     ats, countries, roles = m["ats"], m["countries"], m["roles"]
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" '
          f'role="img" aria-label="Job-market harvest dashboard">',
-         rect(0, 0, W, H, "#ffffff", rx=0)]
+         rect(0, 0, W, h, "#ffffff", rx=0)]
 
     s += [text(40, 52, "The 2026 ATS harvest", 24, INK, "650"),
           text(40, 76, "Every posting published on eleven applicant-tracking platforms, deduplicated "
@@ -107,9 +140,14 @@ def svg(m: dict) -> str:
           text(644, 782, "country is derived from the location string; the residual stays 'unknown', "
                          "never guessed.", 11.5, MUTED)]
 
-    s += [f'<line x1="40" y1="{H - 52}" x2="{W - 40}" y2="{H - 52}" stroke="{RULE}"/>',
-          text(40, H - 28, "HireSignal · generated from the warehouse marts, never hand-edited", 11, MUTED),
-          text(W - 40, H - 28, f"snapshot: ATS boards, {m.get('as_of', 'October 2026')}", 11, MUTED, "400", "end"),
+    if snaps:
+        s += panel(40, 840, 1120, 180,
+                   f"Postings over time · fixed {snaps[-1].get('boards', '')}-board panel")
+        s += timeline_chart(64, 884, 1072, 86, snaps)
+
+    s += [f'<line x1="40" y1="{h - 52}" x2="{W - 40}" y2="{h - 52}" stroke="{RULE}"/>',
+          text(40, h - 28, "HireSignal · generated from the warehouse marts, never hand-edited", 11, MUTED),
+          text(W - 40, h - 28, f"snapshot: ATS boards, {m.get('as_of', 'October 2026')}", 11, MUTED, "400", "end"),
           "</svg>"]
     return "\n".join(s)
 
@@ -120,6 +158,7 @@ def main() -> None:
     ap.add_argument("--json")
     ap.add_argument("--out", default="docs/dashboard.svg")
     ap.add_argument("--save-metrics")
+    ap.add_argument("--timeline", default="docs/data/timeline.json")
     a = ap.parse_args()
 
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
@@ -136,7 +175,10 @@ def main() -> None:
         save(m, a.save_metrics)
     out = pathlib.Path(a.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(svg(m))
+    import json
+    tl = pathlib.Path(a.timeline)
+    timeline = json.loads(tl.read_text()) if tl.exists() else None
+    out.write_text(svg(m, timeline))
     print(f"{out} · {len(m['ats'])} platforms · {m['kept']:,} postings")
 
 

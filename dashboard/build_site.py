@@ -15,6 +15,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 from dashboard.build_svg import svg  # noqa: E402
 from dashboard.metrics import from_json  # noqa: E402
+import json  # noqa: E402
 
 PAGE = """<!doctype html>
 <html lang="en">
@@ -64,7 +65,7 @@ PAGE = """<!doctype html>
     Built by <code>pipeline/ats.py</code> (DuckDB) and <code>dashboard/build_site.py</code>.
     Numbers come from <code>docs/data/marts.json</code>, regenerated from the full snapshot;
     the repository ships a 5,588-row sample so the pipeline runs without the 111&nbsp;MB file.
-    Countries are derived from the location string, and {unknown_pct:.1f}% stays <code>unknown</code> rather than guessed.
+    Timeline: {timeline_note}. Countries are derived from the location string, and {unknown_pct:.1f}% stays <code>unknown</code> rather than guessed.
   </footer>
 </main>
 </body>
@@ -79,9 +80,15 @@ def main() -> None:
     a = ap.parse_args()
 
     m = from_json(a.json)
+    tl = pathlib.Path("docs/data/timeline.json")
+    timeline = json.loads(tl.read_text()) if tl.exists() else None
+    snaps = [x for x in ((timeline or {}).get("snapshots") or [])
+             if x.get("scope") == "panel" or x.get("boards")]
     out = pathlib.Path(a.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(PAGE.format(dashboard=svg(m), unknown_pct=m.get('unknown_pct', 0.0)))
+    out.write_text(PAGE.format(dashboard=svg(m, timeline), unknown_pct=m.get('unknown_pct', 0.0),
+                               timeline_note=(f"{len(snaps)} daily snapshot{'s' if len(snaps) != 1 else ''}, "
+                                              f"first {snaps[0]['date']}" if snaps else "no snapshots yet")))
     print(f"{out} · {m['kept']:,} postings · {len(m['ats'])} platforms")
 
 
