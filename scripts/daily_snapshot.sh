@@ -23,7 +23,7 @@ trap 'rm -rf "$TMP"' EXIT
 echo "[1/4] fetching $BOARDS boards"
 cd "$JOBAPP"
 "$PY" scripts/market_scan.py \
-    --tokens-file "$TOKENS" --limit-tokens "$BOARDS" --all-roles \
+    --tokens-file "$TOKENS" --sample-tokens "$BOARDS" --all-roles \
     --workers 8 --out "daily_${DAY}.db" >"$TMP/scan.log" 2>&1 || { tail -25 "$TMP/scan.log"; exit 1; }
 tail -3 "$TMP/scan.log"
 
@@ -46,7 +46,7 @@ cd "$REPO"
 
 echo "[4/4] rebuilding the site assets"
 "$PY" dashboard/build_svg.py --json docs/data/marts.json --out docs/dashboard.svg
-"$PY" dashboard/build_site.py --json docs/data/marts.json --out _site/index.html
+"$PY" dashboard/build_site.py --json docs/data/marts.json --out _site
 
 rm -f "$JOBAPP/data/market/daily_${DAY}.db"
 

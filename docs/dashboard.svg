@@ -1,127 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1090" viewBox="0 0 1200 1090" role="img" aria-label="Job-market harvest dashboard">
-<rect x="0.0" y="0.0" width="1200.0" height="1090.0" rx="0" fill="#0a0e13"/>
-<rect x="0" y="0" width="1200" height="2" fill="#4cc2e0" opacity="0.55"/>
-<text x="48" y="56" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#4cc2e0" font-weight="700" text-anchor="start" letter-spacing="2.4">HIRESIGNAL  ·  ATS HARVEST</text>
-<text x="48" y="102" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#e9eff5" font-weight="650" text-anchor="start">The 2026 job-market harvest</text>
-<text x="48" y="130" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#7e8fa2" font-weight="400" text-anchor="start">Every posting published on eleven applicant-tracking platforms, deduplicated in SQL and modelled into a star schema.</text>
-<text x="48" y="226" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="64" fill="#e9eff5" font-weight="700" text-anchor="start" letter-spacing="-1.5">231,859</text>
-<text x="48" y="252" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="400" text-anchor="start">postings after collapsing 11,904 duplicate listings</text>
-<text x="470" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e9eff5" font-weight="650" text-anchor="start">8,388</text>
-<text x="470" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.2">COMPANIES</text>
-<text x="680" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e9eff5" font-weight="650" text-anchor="start">11</text>
-<text x="680" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.2">PLATFORMS</text>
-<text x="870" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e9eff5" font-weight="650" text-anchor="start">10%</text>
-<text x="870" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.2">FULLY REMOTE</text>
-<text x="1030" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e9eff5" font-weight="650" text-anchor="start">5,376</text>
-<text x="1030" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.2">JUNIOR-TITLED</text>
-<line x1="48" y1="286" x2="1152" y2="286" stroke="#1d2937"/>
-<rect x="48.0" y="316.0" width="540.0" height="250.0" rx="10" fill="#10161d" stroke="#1d2937"/>
-<text x="70" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.4">WHICH PLATFORM PUBLISHED IT</text>
-<text x="566" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#55677a" font-weight="400" text-anchor="end">57% from one board software</text>
-<text x="70" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">greenhouse</text>
-<rect x="256.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
-<rect x="256.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#4cc2e0"/>
-<text x="566" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">131,855</text>
-<text x="70" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">ashby</text>
-<rect x="256.0" y="398.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<rect x="0.0" y="0.0" width="1200.0" height="1090.0" rx="0" fill="#150f23"/>
+<rect x="0" y="0" width="1200" height="2" fill="#c2ef4e" opacity="0.55"/>
+<text x="48" y="56" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#c2ef4e" font-weight="700" text-anchor="start" letter-spacing="2.4">HIRESIGNAL  ·  ATS HARVEST</text>
+<text x="48" y="102" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#ffffff" font-weight="650" text-anchor="start">The 2026 job-market harvest</text>
+<text x="48" y="130" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#bdb8c0" font-weight="400" text-anchor="start">Every posting published on eleven applicant-tracking platforms, deduplicated in SQL and modelled into a star schema.</text>
+<text x="48" y="226" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="64" fill="#ffffff" font-weight="700" text-anchor="start" letter-spacing="-1.5">231,859</text>
+<text x="48" y="252" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="400" text-anchor="start">postings after collapsing 11,904 duplicate listings</text>
+<text x="470" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff" font-weight="650" text-anchor="start">8,388</text>
+<text x="470" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.2">COMPANIES</text>
+<text x="680" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff" font-weight="650" text-anchor="start">11</text>
+<text x="680" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.2">PLATFORMS</text>
+<text x="870" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff" font-weight="650" text-anchor="start">10%</text>
+<text x="870" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.2">FULLY REMOTE</text>
+<text x="1030" y="196" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff" font-weight="650" text-anchor="start">5,376</text>
+<text x="1030" y="216" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.2">JUNIOR-TITLED</text>
+<line x1="48" y1="286" x2="1152" y2="286" stroke="#362d59"/>
+<rect x="48.0" y="316.0" width="540.0" height="250.0" rx="10" fill="#1f1633" stroke="#362d59"/>
+<text x="70" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">WHICH PLATFORM PUBLISHED IT</text>
+<text x="566" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">57% from one board software</text>
+<text x="70" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">greenhouse</text>
+<rect x="256.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
+<rect x="256.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#c2ef4e"/>
+<text x="566" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">131,855</text>
+<text x="70" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">ashby</text>
+<rect x="256.0" y="398.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="398.0" width="84.0" height="8.0" rx="4" fill="#45b2cf"/>
-<text x="566" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">48,592</text>
-<text x="70" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">workable</text>
-<rect x="256.0" y="430.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">48,592</text>
+<text x="70" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">workable</text>
+<rect x="256.0" y="430.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="430.0" width="36.5" height="8.0" rx="4" fill="#3ea2bd"/>
-<text x="566" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">21,129</text>
-<text x="70" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">personio</text>
-<rect x="256.0" y="462.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">21,129</text>
+<text x="70" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">personio</text>
+<rect x="256.0" y="462.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="462.0" width="15.9" height="8.0" rx="4" fill="#3792ac"/>
-<text x="566" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">9,187</text>
-<text x="70" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">rippling</text>
-<rect x="256.0" y="494.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">9,187</text>
+<text x="70" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">rippling</text>
+<rect x="256.0" y="494.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="494.0" width="14.2" height="8.0" rx="4" fill="#30829b"/>
-<text x="566" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">8,210</text>
-<text x="70" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">lever</text>
-<rect x="256.0" y="526.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">8,210</text>
+<text x="70" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">lever</text>
+<rect x="256.0" y="526.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="526.0" width="9.6" height="8.0" rx="4" fill="#2a738a"/>
-<text x="566" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">5,564</text>
-<rect x="612.0" y="316.0" width="540.0" height="250.0" rx="10" fill="#10161d" stroke="#1d2937"/>
-<text x="634" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.4">WHERE THE JOBS ARE</text>
-<text x="1130" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#55677a" font-weight="400" text-anchor="end">country parsed from location</text>
-<text x="634" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">United States</text>
-<rect x="820.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
-<rect x="820.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#4cc2e0"/>
-<text x="1130" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">130,095</text>
-<text x="634" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">unknown</text>
-<rect x="820.0" y="398.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">5,564</text>
+<rect x="612.0" y="316.0" width="540.0" height="250.0" rx="10" fill="#1f1633" stroke="#362d59"/>
+<text x="634" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">WHERE THE JOBS ARE</text>
+<text x="1130" y="348" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">country parsed from location</text>
+<text x="634" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">United States</text>
+<rect x="820.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
+<rect x="820.0" y="366.0" width="228.0" height="8.0" rx="4" fill="#c2ef4e"/>
+<text x="1130" y="374.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">130,095</text>
+<text x="634" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">unknown</text>
+<rect x="820.0" y="398.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="820.0" y="398.0" width="44.0" height="8.0" rx="4" fill="#45b2cf"/>
-<text x="1130" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">25,123</text>
-<text x="634" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">United Kingdom</text>
-<rect x="820.0" y="430.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="1130" y="406.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">25,123</text>
+<text x="634" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">United Kingdom</text>
+<rect x="820.0" y="430.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="820.0" y="430.0" width="15.7" height="8.0" rx="4" fill="#3ea2bd"/>
-<text x="1130" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">8,950</text>
-<text x="634" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">Germany</text>
-<rect x="820.0" y="462.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="1130" y="438.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">8,950</text>
+<text x="634" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">Germany</text>
+<rect x="820.0" y="462.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="820.0" y="462.0" width="11.8" height="8.0" rx="4" fill="#3792ac"/>
-<text x="1130" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">6,730</text>
-<text x="634" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">India</text>
-<rect x="820.0" y="494.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="1130" y="470.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">6,730</text>
+<text x="634" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">India</text>
+<rect x="820.0" y="494.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="820.0" y="494.0" width="8.1" height="8.0" rx="4" fill="#30829b"/>
-<text x="1130" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">4,603</text>
-<text x="634" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">Canada</text>
-<rect x="820.0" y="526.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="1130" y="502.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">4,603</text>
+<text x="634" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">Canada</text>
+<rect x="820.0" y="526.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="820.0" y="526.0" width="7.1" height="8.0" rx="4" fill="#2a738a"/>
-<text x="1130" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">4,044</text>
-<rect x="48.0" y="586.0" width="540.0" height="250.0" rx="10" fill="#10161d" stroke="#1d2937"/>
-<text x="70" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.4">WHAT THE JOBS ARE</text>
-<text x="566" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#55677a" font-weight="400" text-anchor="end">title families, lossy by design</text>
-<text x="70" y="644.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">other / unclassified</text>
-<rect x="256.0" y="636.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
-<rect x="256.0" y="636.0" width="228.0" height="8.0" rx="4" fill="#4cc2e0"/>
-<text x="566" y="644.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">72,730</text>
-<text x="70" y="676.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">engineering</text>
-<rect x="256.0" y="668.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="1130" y="534.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">4,044</text>
+<rect x="48.0" y="586.0" width="540.0" height="250.0" rx="10" fill="#1f1633" stroke="#362d59"/>
+<text x="70" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">WHAT THE JOBS ARE</text>
+<text x="566" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">title families, lossy by design</text>
+<text x="70" y="644.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">other / unclassified</text>
+<rect x="256.0" y="636.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
+<rect x="256.0" y="636.0" width="228.0" height="8.0" rx="4" fill="#c2ef4e"/>
+<text x="566" y="644.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">72,730</text>
+<text x="70" y="676.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">engineering</text>
+<rect x="256.0" y="668.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="668.0" width="143.4" height="8.0" rx="4" fill="#45b2cf"/>
-<text x="566" y="676.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">45,731</text>
-<text x="70" y="708.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">sales</text>
-<rect x="256.0" y="700.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="676.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">45,731</text>
+<text x="70" y="708.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">sales</text>
+<rect x="256.0" y="700.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="700.0" width="67.1" height="8.0" rx="4" fill="#3ea2bd"/>
-<text x="566" y="708.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">21,397</text>
-<text x="70" y="740.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">operations</text>
-<rect x="256.0" y="732.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="708.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">21,397</text>
+<text x="70" y="740.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">operations</text>
+<rect x="256.0" y="732.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="732.0" width="39.3" height="8.0" rx="4" fill="#3792ac"/>
-<text x="566" y="740.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">12,550</text>
-<text x="70" y="772.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">data / ML</text>
-<rect x="256.0" y="764.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="740.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">12,550</text>
+<text x="70" y="772.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">data / ML</text>
+<rect x="256.0" y="764.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="764.0" width="37.1" height="8.0" rx="4" fill="#30829b"/>
-<text x="566" y="772.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">11,845</text>
-<text x="70" y="804.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="450" text-anchor="start">healthcare</text>
-<rect x="256.0" y="796.0" width="228.0" height="8.0" rx="4" fill="#1a232e"/>
+<text x="566" y="772.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">11,845</text>
+<text x="70" y="804.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="450" text-anchor="start">healthcare</text>
+<rect x="256.0" y="796.0" width="228.0" height="8.0" rx="4" fill="#2a1f47"/>
 <rect x="256.0" y="796.0" width="35.2" height="8.0" rx="4" fill="#2a738a"/>
-<text x="566" y="804.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7e8fa2" font-weight="500" text-anchor="end">11,225</text>
-<rect x="612.0" y="586.0" width="540.0" height="250.0" rx="10" fill="#10161d" stroke="#1d2937"/>
-<text x="634" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.4">THE PIPELINE, IN NUMBERS</text>
-<text x="1130" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#55677a" font-weight="400" text-anchor="end">parquet → star schema</text>
-<rect x="634.0" y="626.0" width="246.0" height="28.0" rx="14" fill="#4cc2e0"/>
-<text x="648" y="645" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#0a0e13" font-weight="600" text-anchor="start">landed</text>
-<text x="1002" y="645" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="600" text-anchor="end">233,032</text>
-<text x="1130" y="645" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="end">parquet</text>
+<text x="566" y="804.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bdb8c0" font-weight="500" text-anchor="end">11,225</text>
+<rect x="612.0" y="586.0" width="540.0" height="250.0" rx="10" fill="#1f1633" stroke="#362d59"/>
+<text x="634" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">THE PIPELINE, IN NUMBERS</text>
+<text x="1130" y="618" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">parquet → star schema</text>
+<rect x="634.0" y="626.0" width="246.0" height="28.0" rx="14" fill="#c2ef4e"/>
+<text x="648" y="645" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#150f23" font-weight="600" text-anchor="start">landed</text>
+<text x="1002" y="645" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="end">233,032</text>
+<text x="1130" y="645" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">parquet</text>
 <rect x="634.0" y="670.0" width="244.8" height="28.0" rx="14" fill="#45b2cf"/>
-<text x="648" y="689" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#0a0e13" font-weight="600" text-anchor="start">after dedupe</text>
-<text x="1002" y="689" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="600" text-anchor="end">231,859</text>
-<text x="1130" y="689" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="end">same requisition</text>
+<text x="648" y="689" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#150f23" font-weight="600" text-anchor="start">after dedupe</text>
+<text x="1002" y="689" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="end">231,859</text>
+<text x="1130" y="689" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">same requisition</text>
 <rect x="634.0" y="714.0" width="230.4" height="28.0" rx="14" fill="#3ea2bd"/>
-<text x="648" y="733" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#e9eff5" font-weight="600" text-anchor="start">with a real date</text>
-<text x="1002" y="733" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="600" text-anchor="end">218,237</text>
-<text x="1130" y="733" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="end">parsed</text>
+<text x="648" y="733" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="600" text-anchor="start">with a real date</text>
+<text x="1002" y="733" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="end">218,237</text>
+<text x="1130" y="733" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">parsed</text>
 <rect x="634.0" y="758.0" width="226.9" height="28.0" rx="14" fill="#3792ac"/>
-<text x="648" y="777" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#e9eff5" font-weight="600" text-anchor="start">body + date</text>
-<text x="1002" y="777" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e9eff5" font-weight="600" text-anchor="end">214,940</text>
-<text x="1130" y="777" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="end">fully usable</text>
-<rect x="48.0" y="856.0" width="1104.0" height="160.0" rx="10" fill="#10161d" stroke="#1d2937"/>
-<text x="70" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#7e8fa2" font-weight="600" text-anchor="start" letter-spacing="1.4">POSTINGS OVER TIME</text>
-<text x="1130" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#55677a" font-weight="400" text-anchor="end">fixed 1200-board panel</text>
-<circle cx="600.0" cy="941.0" r="4" fill="#0a0e13" stroke="#4cc2e0" stroke-width="2"/>
-<text x="600.0" y="927.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#e9eff5" font-weight="600" text-anchor="middle">24,204</text>
-<text x="600.0" y="986" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="middle">2026-10-29 · 24,204 postings in the panel</text>
-<line x1="48" y1="1042" x2="1152" y2="1042" stroke="#1d2937"/>
-<text x="48" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="start">generated from the warehouse marts · never hand-edited</text>
-<text x="1152" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#55677a" font-weight="400" text-anchor="end">snapshot: ATS boards, October 2026</text>
+<text x="648" y="777" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="600" text-anchor="start">body + date</text>
+<text x="1002" y="777" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="end">214,940</text>
+<text x="1130" y="777" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">fully usable</text>
+<rect x="48.0" y="856.0" width="1104.0" height="160.0" rx="10" fill="#1f1633" stroke="#362d59"/>
+<text x="70" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">POSTINGS OVER TIME</text>
+<text x="1130" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">fixed 1200-board panel</text>
+<circle cx="600.0" cy="941.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="600.0" y="927.0" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,222</text>
+<text x="600.0" y="986" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="middle">2026-10-29 · 27,222 postings in the panel</text>
+<line x1="48" y1="1042" x2="1152" y2="1042" stroke="#362d59"/>
+<text x="48" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="start">generated from the warehouse marts · never hand-edited</text>
+<text x="1152" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">snapshot: ATS boards, October 2026</text>
 </svg>

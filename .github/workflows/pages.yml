@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: render the site from the committed metrics
-        run: python dashboard/build_site.py --json docs/data/marts.json --out _site/index.html
+        run: python dashboard/build_site.py --json docs/data/marts.json --out _site
       - name: ship the standalone svg too
         run: cp docs/dashboard.svg _site/dashboard.svg
       - uses: actions/configure-pages@v5

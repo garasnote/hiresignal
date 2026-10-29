@@ -15,13 +15,13 @@ import pathlib
 import sys
 
 W = 1200
-BG = "#0a0e13"
-PANEL = "#10161d"
-RULE = "#1d2937"
-INK = "#e9eff5"
-MUTED = "#7e8fa2"
-DIM = "#55677a"
-ACCENT = "#4cc2e0"
+BG = "#150f23"
+PANEL = "#1f1633"
+RULE = "#362d59"
+INK = "#ffffff"
+MUTED = "#bdb8c0"
+DIM = "#bdb8c0"
+ACCENT = "#c2ef4e"
 BARS = [ACCENT, "#45b2cf", "#3ea2bd", "#3792ac", "#30829b", "#2a738a", "#246479", "#1f5668"]
 FONT = "Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
 
@@ -56,7 +56,7 @@ def bars(x, y, w, rows, bar_h=26, gap=10, label_w=186, fmt="{:,.0f}"):
         yy = y + i * (bar_h + gap)
         cy = yy + bar_h / 2
         out.append(text(x, cy + 4, str(label)[:24], 12.5, INK, "450"))
-        out.append(rect(x + label_w, cy - 4, track, 8, "#1a232e", rx=4))
+        out.append(rect(x + label_w, cy - 4, track, 8, "#2a1f47", rx=4))
         out.append(rect(x + label_w, cy - 4, max(4.0, track * value / top), 8, BARS[i % len(BARS)], rx=4))
         out.append(text(x + w, cy + 4, fmt.format(value), 12.5, MUTED, "500", "end"))
     return out

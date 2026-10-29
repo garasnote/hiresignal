@@ -74,6 +74,10 @@ Outputs land in `warehouse.db` and `exports/*.csv` (star schema for Power BI). M
 - Experience and seniority are parsed from the posting text, not the title, because titles lie — a "junior" ad in this dataset asked for five years.
 - Deduplication is a modelled step with a metric (`mart_quality`), not a cleanup script someone runs by hand.
 - The dashboard is generated from the marts by code, so the picture cannot drift from the data.
+- The site is real HTML, not an SVG image: every figure selects, copies and reads aloud, and each
+  daily snapshot has its own URL (`/2026-10-29/`) so history is browsable without JavaScript.
+- Visual language: [`DESIGN.md`](DESIGN.md), copied from the Sentry entry in the
+  [getdesign.md](https://getdesign.md/) catalogue (violet-midnight canvas, lime accent, Rubik).
 
 ## Repo map
 
@@ -82,20 +86,24 @@ pipeline/ats.py        Parquet -> DuckDB star schema -> marts
 pipeline/run.py        Spanish boards -> SQLite star schema -> CSV exports
 sql/ats_schema.sql     conform, dedupe, dimensions, fact
 sql/marts_ats.sql      one mart per question
-dashboard/build_svg.py renders docs/dashboard.svg from the marts
+dashboard/build_svg.py renders docs/dashboard.svg (the README image)
+dashboard/build_site.py one HTML page per snapshot + the full-harvest page
+dashboard/render_html.py semantic HTML, CSS bars, no JS
+DESIGN.md              design tokens the site is built from (Sentry)
 data/sample/           5,588-row Parquet sample used by tests and CI
-tests/                 16 tests: pipeline invariants + dashboard renders
+tests/                 17 tests: pipeline invariants + dashboard renders
 ```
 
 ## Status
 
 - [x] ATS harvest: 233,032 postings, 11 platforms, dedupe in SQL
 - [x] DuckDB star schema + seven marts
-- [x] generated dashboard (SVG, no JS)
+- [x] generated dashboard: one HTML page per day, browsable history, no JS
+- [x] daily 1,200-board panel snapshot (systemd timer, 07:30)
 - [x] scrapers (elempleo, computrabajo), idempotent SQLite load
 - [x] CSV export for Power BI
 - [x] offline fixture + CI
-- [ ] scheduled refresh (cron + GitHub Actions)
+- [ ] daily refresh of the *full* harvest (the panel refreshes daily; the 233k build is manual)
 
 ## License
 
