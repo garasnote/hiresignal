@@ -20,7 +20,22 @@
     "oraclecloud": 787,
     "icims": 425,
     "paylocity": 94
-   }
+   },
+   "scope": "full"
+  },
+  {
+   "date": "2026-10-29",
+   "scope": "panel",
+   "landed": 25225,
+   "kept": 24204,
+   "companies": 1114,
+   "remote_pct": 11.7,
+   "junior": 417,
+   "body_date": 24166,
+   "ats": {
+    "ashby": 24204
+   },
+   "boards": 1200
   }
  ]
 }
