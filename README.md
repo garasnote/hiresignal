@@ -4,6 +4,7 @@
 
 ![python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![tests](https://img.shields.io/badge/tests-17%20passed-2ea44f)
+![lint](https://img.shields.io/badge/lint-ruff%20clean-261230)
 ![license](https://img.shields.io/badge/license-WTFPL-brightgreen)
 ![harvest](https://img.shields.io/badge/harvest-233%2C032%20postings-6f42c1)
 ![warehouse](https://img.shields.io/badge/warehouse-231%2C859%20postings-6f42c1)

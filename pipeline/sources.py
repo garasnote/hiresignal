@@ -73,7 +73,7 @@ def scrape_elempleo(terms=None, pages: int = 8, workers: int = 8) -> list:
             jobs.append((term, f"https://www.elempleo.com/co/ofertas-empleo/trabajo-{term}{suffix}"))
 
     out = {}
-    for term, html in _fetch_all(jobs, workers):
+    for _term, html in _fetch_all(jobs, workers):
         if not html:
             continue
         for m in re.finditer(r'data-ga4-offerdata="([^"]+)"', html):
@@ -116,7 +116,7 @@ def scrape_tecnoempleo(pages: int = 60, workers: int = 8) -> list:
             for page in range(1, pages + 1)]
 
     out = {}
-    for page, html in _fetch_all(jobs, workers):
+    for _page, html in _fetch_all(jobs, workers):
         if not html:
             continue
         blocks = html.split('<div class="p-3 border rounded mb-3 bg-white"')[1:]
@@ -151,7 +151,7 @@ def scrape_computrabajo(terms=None, workers: int = 4) -> list:
     terms = terms or COMPUTRABAJO_TERMS
     jobs = [(t, f"https://co.computrabajo.com/trabajo-de-{t}") for t in terms]
     out = {}
-    for term, html in _fetch_all(jobs, workers):
+    for _term, html in _fetch_all(jobs, workers):
         if not html:
             continue
         for href, inner in ANCHOR.findall(html):

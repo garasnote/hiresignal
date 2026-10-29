@@ -1,5 +1,4 @@
 """Tests run with the stdlib only: python3 -m unittest discover -s tests -v"""
-import json
 import pathlib
 import shutil
 import sys

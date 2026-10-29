@@ -1,0 +1,42 @@
+name: lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compile-and-lint:
+    name: compileall + ruff
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install dev tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]" || pip install ruff
+
+      # Byte-compiles without importing: catches syntax errors in the scripts no
+      # test touches (harvest, dedupe, snapshot).
+      - name: Byte-compile the pipelines and the dashboard
+        run: python -m compileall -q pipeline dashboard scripts
+
+      - name: ruff check
+        run: |
+          python -m ruff --version
+          python -m ruff check .

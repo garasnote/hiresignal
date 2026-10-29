@@ -82,6 +82,7 @@ class TestAtsWarehouse(unittest.TestCase):
 
     def test_metrics_round_trip_through_json(self):
         import json
+
         from dashboard.metrics import from_duckdb, save
         m = from_duckdb(self.db)
         path = pathlib.Path(self.tmp.name) / "marts.json"

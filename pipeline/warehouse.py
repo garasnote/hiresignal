@@ -104,9 +104,11 @@ def enrich_experience(offers, limit=0):
             continue
         nums = re.findall(r"(\d{1,2})\s*a[ñn]os?", m.group(1))
         if nums:
-            o["experience_years"] = int(nums[-1]); done += 1
+            o["experience_years"] = int(nums[-1])
+            done += 1
         elif re.search(r"sin experiencia|no requiere", m.group(1), re.I):
-            o["experience_years"] = 0; done += 1
+            o["experience_years"] = 0
+            done += 1
     return offers
 
 
