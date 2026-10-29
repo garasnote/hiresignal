@@ -44,6 +44,7 @@ def entry(m: dict, day: str, boards: int | None = None) -> dict:
         "remote_pct": m["remote_pct"],
         "junior": m["junior"],
         "body_date": m["body_date"],
+        "dated": m.get("dated", 0),
         "ats": [list(r) for r in m["ats"]],
         "countries": [list(r) for r in m["countries"] if r[0] != "remote"][:8],
         "roles": [list(r) for r in m["roles"]][:8],

@@ -34,6 +34,7 @@ def day_view(entry: dict, full: dict) -> dict:
         "junior": entry["junior"],
         "body_date": entry["body_date"],
         "no_date": entry.get("no_date", entry["kept"] - entry["body_date"]),
+        "dated": entry.get("dated") or 0,
         "ats": entry.get("ats") or full["ats"],
         "countries": entry.get("countries") or full["countries"],
         "roles": entry.get("roles") or full["roles"],
@@ -42,10 +43,12 @@ def day_view(entry: dict, full: dict) -> dict:
 
 
 def stages(v: dict):
-    return [("landed", v["landed"], "parquet"),
-            ("after dedupe", v["kept"], "same requisition"),
-            ("with a real date", v["kept"] - v["no_date"], "parsed"),
-            ("body + date", v["body_date"], "fully usable")]
+    out = [("landed", v["landed"], "parquet"),
+           ("after dedupe", v["kept"], "same requisition")]
+    if v.get("dated"):
+        out.append(("with a real date", v["dated"], "parsed"))
+    out.append(("body + date", v["body_date"], "fully usable"))
+    return out
 
 
 def stats(v: dict, platforms: int):
@@ -71,18 +74,50 @@ def main() -> None:
     out = pathlib.Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
 
-    (out / "index.html").write_text(page(
-        title="HireSignal — the 2026 ATS harvest",
-        kicker="HireSignal · ATS harvest",
-        h1="The 2026 job-market harvest",
-        lede="Every posting published on eleven applicant-tracking platforms, deduplicated in SQL and "
-             "modelled into a star schema. The daily panel is the same 1,200 boards, fetched every morning.",
+    # root: the latest daily panel — one scope everywhere on the page
+    latest = panels[-1] if panels else None
+    if latest:
+        v = day_view(latest, full)
+        (out / "index.html").write_text(page(
+            title=f"HireSignal — daily panel, {latest['date']}",
+            kicker=f"Daily panel · latest · {latest['date']}",
+            h1="The market this morning",
+            lede=f"A fixed panel of {latest.get('boards', 1200):,} applicant-tracking boards, fetched every morning "
+                 "at 07:30. The headline number, the panels and the line below all come from those same boards.",
+            hero_value=f"{v['kept']:,}",
+            hero_note=f"postings in the panel on {latest['date']}",
+            stats=stats(v, len(v["ats"])),
+            ats=v["ats"], countries=v["countries"], roles=v["roles"],
+            stages=stages(v), snaps=panels, history=panels, current=latest["date"],
+            footer_note=FOOTER, full_link="/hiresignal/full/"))
+    else:
+        (out / "index.html").write_text(page(
+            title="HireSignal — the 2026 ATS harvest",
+            kicker="HireSignal · ATS harvest",
+            h1="The 2026 job-market harvest",
+            lede="Every posting published on eleven applicant-tracking platforms, deduplicated in SQL and "
+                 "modelled into a star schema.",
+            hero_value=f"{full['kept']:,}",
+            hero_note="postings after collapsing 11,904 duplicate listings",
+            stats=stats(full, len(full["ats"])),
+            ats=full["ats"], countries=full["countries"], roles=full["roles"],
+            stages=stages(full), snaps=[], history=[],
+            current=None, footer_note=FOOTER))
+
+    # the one-off full harvest (8,393 boards) on its own page, never mixed with the panel
+    (out / "full").mkdir(parents=True, exist_ok=True)
+    (out / "full" / "index.html").write_text(page(
+        title="HireSignal — the full harvest",
+        kicker="One-off snapshot · 29 Oct 2026",
+        h1="The full 2026 harvest, once",
+        lede="Every board we can reach: 8,393 companies across eleven applicant-tracking platforms, "
+             "deduplicated in SQL and modelled into a star schema. This is a single snapshot, not the daily panel.",
         hero_value=f"{full['kept']:,}",
         hero_note="postings after collapsing 11,904 duplicate listings",
         stats=stats(full, len(full["ats"])),
         ats=full["ats"], countries=full["countries"], roles=full["roles"],
-        stages=stages(full), snaps=panels, history=panels, current=None,
-        footer_note=FOOTER))
+        stages=stages(full), snaps=[], history=panels, current=None,
+        footer_note=FOOTER, full_link="/hiresignal/"))
 
     for entry in panels:
         v = day_view(entry, full)
@@ -99,7 +134,7 @@ def main() -> None:
             ats=v["ats"], countries=v["countries"], roles=v["roles"],
             stages=stages(v), snaps=[s for s in panels if s["date"] <= entry["date"]],
             history=panels, current=entry["date"],
-            footer_note=FOOTER))
+            footer_note=FOOTER, full_link="/hiresignal/full/"))
 
     print(f"{out}/index.html + {len(panels)} day page(s)")
 

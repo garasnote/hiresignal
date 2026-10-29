@@ -2,7 +2,15 @@
 
 **231,859 postings from eleven applicant-tracking systems, modelled into a star schema in SQL, with a dashboard that renders from the data.**
 
-[**Live dashboard →**](https://garasnote.github.io/hiresignal/)
+![python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
+![tests](https://img.shields.io/badge/tests-17%20passed-2ea44f)
+![license](https://img.shields.io/badge/license-WTFPL-brightgreen)
+![harvest](https://img.shields.io/badge/harvest-233%2C032%20postings-6f42c1)
+![warehouse](https://img.shields.io/badge/warehouse-231%2C859%20postings-6f42c1)
+![platforms](https://img.shields.io/badge/platforms-11-1f6feb)
+![duckdb](https://img.shields.io/badge/duckdb-star%20schema-FFF000?logo=duckdb&logoColor=black)
+
+[**Live dashboard →**](https://garasnote.github.io/hiresignal/) · updated daily at 07:30, one page per day
 
 ![The 2026 ATS harvest](docs/dashboard.svg)
 

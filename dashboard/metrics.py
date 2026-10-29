@@ -22,6 +22,7 @@ def from_duckdb(db: pathlib.Path) -> dict:
         select count(*) from fact_posting
         where description_chars >= 200 and date_key is not null
     """)[0][0]
+    dated = q("select count(*) from fact_posting where date_key is not null")[0][0]
     remote_pct = q("select pct from mart_remote where is_remote")[0][0]
     junior, total = q("select sum(junior), sum(postings) from mart_junior_share")[0]
     out = {
@@ -31,6 +32,7 @@ def from_duckdb(db: pathlib.Path) -> dict:
         "with_body": with_body,
         "no_date": no_date,
         "body_date": body_date,
+        "dated": dated,
         "remote_pct": round(float(remote_pct), 1),
         "junior": junior,
         "postings": total,

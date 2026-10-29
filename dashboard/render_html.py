@@ -133,7 +133,7 @@ def timeline_svg(snaps, width=1132, height=110):
 
 def page(*, title: str, kicker: str, h1: str, lede: str, hero_value: str, hero_note: str,
          stats, ats, countries, roles, stages, snaps, history, current: str | None,
-         footer_note: str) -> str:
+         footer_note: str, full_link: str | None = None) -> str:
     hist = "".join(
         f'<li><a href="/hiresignal/{s["date"]}/"{" aria-current=page" if s["date"] == current else ""}>'
         f'{e(s["date"])} · {s["kept"]:,}</a></li>' for s in reversed(history))
@@ -157,6 +157,7 @@ def page(*, title: str, kicker: str, h1: str, lede: str, hero_value: str, hero_n
     <a href="https://github.com/garasnote/hiresignal/blob/main/sql/ats_schema.sql">schema</a>
     <a href="https://github.com/garasnote/hiresignal/blob/main/sql/marts_ats.sql">marts</a>
     <a href="https://github.com/garasnote/rag-service">retrieval over the same corpus</a>
+    {f'<a href="{full_link}">full harvest · one-off</a>' if full_link else ''}
   </nav>
 </div>
 <main class="wrap">

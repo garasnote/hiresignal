@@ -26,20 +26,21 @@
   {
    "date": "2026-10-29",
    "scope": "panel",
-   "landed": 28315,
-   "kept": 27222,
-   "companies": 1112,
-   "remote_pct": 7.8,
-   "junior": 604,
-   "body_date": 21917,
+   "landed": 28692,
+   "kept": 27585,
+   "companies": 1111,
+   "remote_pct": 7.7,
+   "junior": 600,
+   "body_date": 22253,
+   "dated": 22952,
    "ats": [
     [
      "greenhouse",
-     5720
+     5724
     ],
     [
      "lever",
-     4786
+     5132
     ],
     [
      "ashby",
@@ -47,11 +48,11 @@
     ],
     [
      "workable",
-     3437
+     3431
     ],
     [
      "workday",
-     2895
+     2911
     ],
     [
      "recruitee",
@@ -59,7 +60,7 @@
     ],
     [
      "personio",
-     2122
+     2125
     ],
     [
      "rippling",
@@ -69,27 +70,27 @@
    "countries": [
     [
      "United States",
-     9474
+     9769
     ],
     [
      "unknown",
-     9069
+     9102
     ],
     [
      "Germany",
-     998
+     995
     ],
     [
      "Netherlands",
-     709
+     713
     ],
     [
      "United Kingdom",
-     651
+     628
     ],
     [
      "India",
-     538
+     562
     ],
     [
      "France",
@@ -97,25 +98,25 @@
     ],
     [
      "Canada",
-     374
+     375
     ]
    ],
    "roles": [
     [
      "other",
-     10413
+     10445
     ],
     [
      "engineering",
-     4258
+     4487
     ],
     [
      "healthcare",
-     1909
+     1906
     ],
     [
      "sales",
-     1841
+     1853
     ],
     [
      "data / ML",
@@ -123,15 +124,15 @@
     ],
     [
      "operations",
-     1198
+     1243
     ],
     [
      "analytics",
-     767
+     765
     ],
     [
      "marketing",
-     743
+     754
     ]
    ],
    "boards": 1200
