@@ -3,3 +3,5 @@ __pycache__/
 warehouse.db
 exports/
 .DS_Store
+warehouse_ats.duckdb
+*.duckdb

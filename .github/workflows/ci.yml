@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  boards:
+    name: Spanish boards (stdlib only)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,3 +31,32 @@ jobs:
           name: exports
           path: exports/
           if-no-files-found: error
+
+  ats:
+    name: ATS warehouse (duckdb + pyarrow)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: install
+        run: pip install -e ".[ats]"
+
+      - name: build the warehouse from the committed sample
+        run: python pipeline/ats.py
+
+      - name: render the dashboard
+        run: python dashboard/build_svg.py --db warehouse_ats.duckdb --out dashboard.svg
+
+      - name: unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: the dashboard must not be empty
+        run: test -s dashboard.svg && grep -q "<svg" dashboard.svg
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dashboard
+          path: dashboard.svg

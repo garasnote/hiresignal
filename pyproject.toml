@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiresignal"
+version = "0.2.0"
+description = "A job-market warehouse: ATS harvest -> DuckDB star schema -> SQL marts -> dashboard"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+ats = ["duckdb>=1.0", "pyarrow>=15"]
+
+[tool.setuptools]
+packages = ["pipeline", "dashboard"]
+py-modules = []
