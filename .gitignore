@@ -5,3 +5,5 @@ exports/
 .DS_Store
 warehouse_ats.duckdb
 *.duckdb
+_site/
+dashboard.svg

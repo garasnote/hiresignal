@@ -71,13 +71,24 @@ class TestAtsWarehouse(unittest.TestCase):
         self.assertLessEqual(kept, landed)
 
     def test_dashboard_renders_from_the_warehouse(self):
-        from dashboard.build_svg import build
-        out = pathlib.Path(self.tmp.name) / "dashboard.svg"
-        build(self.db, out)
-        svg = out.read_text()
-        self.assertTrue(svg.startswith("<svg"))
-        self.assertIn("ATS", svg)
-        self.assertGreater(len(svg), 5000)
+        from dashboard.build_svg import svg
+        from dashboard.metrics import from_duckdb
+        m = from_duckdb(self.db)
+        out = svg(m)
+        self.assertTrue(out.startswith("<svg"))
+        self.assertIn("ATS", out)
+        self.assertGreater(len(out), 5000)
+        self.assertEqual(m["kept"], self.one("select rows_after_dedupe from mart_quality")[0])
+
+    def test_metrics_round_trip_through_json(self):
+        import json
+        from dashboard.metrics import from_duckdb, save
+        m = from_duckdb(self.db)
+        path = pathlib.Path(self.tmp.name) / "marts.json"
+        save(m, path)
+        again = json.loads(path.read_text())
+        self.assertEqual(m["ats"], again["ats"])
+        self.assertEqual(m["unknown_pct"], again["unknown_pct"])
 
 
 if __name__ == "__main__":

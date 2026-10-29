@@ -2,6 +2,8 @@
 
 **231,859 postings from eleven applicant-tracking systems, modelled into a star schema in SQL, with a dashboard that renders from the data.**
 
+[**Live dashboard →**](https://garasnote.github.io/hiresignal/)
+
 ![The 2026 ATS harvest](docs/dashboard.svg)
 
 Two pipelines live in this repo. The **ATS harvest** is the volume piece: every posting published on Greenhouse, Ashby, Workable, Personio, Rippling, Lever, Workday, Recruitee, iCIMS, Oracle Cloud and Paylocity, landed as Parquet, conformed and deduplicated in SQL, then modelled into dimensions and a fact table. The **Spanish boards** pipeline is the craft piece: scrapers for elempleo and computrabajo with an idempotent SQLite load, star schema and CSV exports for Power BI.
@@ -9,7 +11,7 @@ Two pipelines live in this repo. The **ATS harvest** is the volume piece: every 
 ## What the data says
 
 - **Six platforms are the market.** Greenhouse (56.9%), Ashby (21.0%), Workable (9.1%), Personio (4.0%), Rippling (3.5%) and Lever (2.4%) publish 96.9% of everything. Workday, iCIMS and Oracle Cloud carry the rest, and they are the hardest to scrape — which is why the long tail is under-represented in most job-market datasets.
-- **It is an American market.** 54.2% of postings are in the United States against 3.9% United Kingdom and 2.9% Germany. Only 10.4% are fully remote.
+- **It is an American market.** 56.1% of postings are in the United States against 3.9% United Kingdom and 2.9% Germany. Only 10.4% are fully remote.
 - **It is a senior market.** 5,376 postings (2.3%) carry a junior, graduate, intern or trainee title.
 - **Titles are a long tail.** 31.4% fall outside fifteen role families — from *Auxiliaire de vie* to *Solutions Architect* to *Line Cook*. Any "role family" column is a lossy convenience, and this warehouse says so instead of hiding it.
 
@@ -52,7 +54,7 @@ python3 -m unittest discover -s tests -v
 | with body text | 214,942 | retrievable, not title-only |
 | body **and** date | 214,940 | fully usable |
 
-Country is derived from the location string and **15.8% stays `unknown`** rather than being guessed. `posted_at` arrives as prose on some boards ("Posted Yesterday"), so 5.8% has no date and joins the unknown member of `dim_date`. The committed sample is 5,588 rows so the repo stays cloneable; the full 111 MB snapshot is not in git.
+Country is derived from the location string and **10.8% stays `unknown`** rather than being guessed. `posted_at` arrives as prose on some boards ("Posted Yesterday"), so 5.8% has no date and joins the unknown member of `dim_date`. The committed sample is 5,588 rows so the repo stays cloneable; the full 111 MB snapshot is not in git.
 
 ## The Spanish boards pipeline
 

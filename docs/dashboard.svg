@@ -2,23 +2,23 @@
 <rect x="0.0" y="0.0" width="1200.0" height="880.0" rx="0" fill="#ffffff"/>
 <text x="40" y="52" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#1b2430" font-weight="650" text-anchor="start">The 2026 ATS harvest</text>
 <text x="40" y="76" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6b7787" font-weight="400" text-anchor="start">Every posting published on eleven applicant-tracking platforms, deduplicated and modelled into a star schema.</text>
-<rect x="40.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="40.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea"/>
 <text x="56" y="126" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#1b2430" font-weight="650" text-anchor="start">231,859</text>
 <text x="56" y="146" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="0.8">POSTINGS</text>
 <text x="56" y="163" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="400" text-anchor="start">after collapsing duplicates</text>
-<rect x="322.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="322.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea"/>
 <text x="338" y="126" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#1b2430" font-weight="650" text-anchor="start">8,388</text>
 <text x="338" y="146" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="0.8">COMPANIES</text>
 <text x="338" y="163" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="400" text-anchor="start">distinct employers</text>
-<rect x="604.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="604.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea"/>
 <text x="620" y="126" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#1b2430" font-weight="650" text-anchor="start">11</text>
 <text x="620" y="146" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="0.8">PLATFORMS</text>
 <text x="620" y="163" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="400" text-anchor="start">ATS integrations</text>
-<rect x="886.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="886.0" y="100.0" width="264.0" height="74.0" rx="6" fill="#f7f9fa" stroke="#dfe4ea"/>
 <text x="902" y="126" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#1b2430" font-weight="650" text-anchor="start">10%</text>
 <text x="902" y="146" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="0.8">FULLY REMOTE</text>
 <text x="902" y="163" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="400" text-anchor="start">of all postings</text>
-<rect x="40.0" y="200.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="40.0" y="200.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
 <text x="60" y="230" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="1.1">WHICH PLATFORM PUBLISHED IT</text>
 <text x="64" y="255" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">greenhouse</text>
 <rect x="254.0" y="242.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
@@ -48,41 +48,41 @@
 <rect x="254.0" y="428.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
 <rect x="254.0" y="428.0" width="8.8" height="14.0" rx="2" fill="#8cc0d6"/>
 <text x="556" y="441" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">5,156</text>
-<rect x="620.0" y="200.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="620.0" y="200.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
 <text x="640" y="230" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="1.1">WHERE THE JOBS ARE</text>
 <text x="644" y="255" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">United States</text>
 <rect x="834.0" y="242.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
 <rect x="834.0" y="242.0" width="224.0" height="14.0" rx="2" fill="#2f6f8f"/>
-<text x="1136" y="255" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">102,837</text>
+<text x="1136" y="255" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">130,095</text>
 <text x="644" y="286" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">unknown</text>
 <rect x="834.0" y="273.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="273.0" width="129.2" height="14.0" rx="2" fill="#3d7f9d"/>
-<text x="1136" y="286" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">59,306</text>
+<rect x="834.0" y="273.0" width="43.3" height="14.0" rx="2" fill="#3d7f9d"/>
+<text x="1136" y="286" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">25,123</text>
 <text x="644" y="317" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">United Kingdom</text>
 <rect x="834.0" y="304.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="304.0" width="19.8" height="14.0" rx="2" fill="#4b8dab"/>
-<text x="1136" y="317" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">9,078</text>
+<rect x="834.0" y="304.0" width="15.4" height="14.0" rx="2" fill="#4b8dab"/>
+<text x="1136" y="317" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">8,950</text>
 <text x="644" y="348" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">Germany</text>
 <rect x="834.0" y="335.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="335.0" width="14.7" height="14.0" rx="2" fill="#5a9bb8"/>
-<text x="1136" y="348" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">6,746</text>
+<rect x="834.0" y="335.0" width="11.6" height="14.0" rx="2" fill="#5a9bb8"/>
+<text x="1136" y="348" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">6,730</text>
 <text x="644" y="379" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">India</text>
 <rect x="834.0" y="366.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="366.0" width="11.0" height="14.0" rx="2" fill="#6aa8c3"/>
-<text x="1136" y="379" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">5,060</text>
+<rect x="834.0" y="366.0" width="7.9" height="14.0" rx="2" fill="#6aa8c3"/>
+<text x="1136" y="379" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">4,603</text>
 <text x="644" y="410" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">Canada</text>
 <rect x="834.0" y="397.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="397.0" width="8.8" height="14.0" rx="2" fill="#7bb4cd"/>
-<text x="1136" y="410" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">4,059</text>
+<rect x="834.0" y="397.0" width="7.0" height="14.0" rx="2" fill="#7bb4cd"/>
+<text x="1136" y="410" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">4,044</text>
 <text x="644" y="441" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">Brazil</text>
 <rect x="834.0" y="428.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="428.0" width="5.0" height="14.0" rx="2" fill="#8cc0d6"/>
+<rect x="834.0" y="428.0" width="3.9" height="14.0" rx="2" fill="#8cc0d6"/>
 <text x="1136" y="441" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">2,287</text>
 <text x="644" y="472" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">Singapore</text>
 <rect x="834.0" y="459.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
-<rect x="834.0" y="459.0" width="4.4" height="14.0" rx="2" fill="#9dccdf"/>
+<rect x="834.0" y="459.0" width="3.5" height="14.0" rx="2" fill="#9dccdf"/>
 <text x="1136" y="472" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">2,022</text>
-<rect x="40.0" y="520.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="40.0" y="520.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
 <text x="60" y="550" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="1.1">WHAT THE JOBS ARE</text>
 <text x="64" y="575" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1b2430" font-weight="400" text-anchor="start">other / unclassified</text>
 <rect x="254.0" y="562.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
@@ -116,7 +116,7 @@
 <rect x="254.0" y="779.0" width="224.0" height="14.0" rx="2" fill="#eef2f5"/>
 <rect x="254.0" y="779.0" width="23.3" height="14.0" rx="2" fill="#9dccdf"/>
 <text x="556" y="792" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6b7787" font-weight="500" text-anchor="end">7,571</text>
-<rect x="620.0" y="520.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea" fill-opacity="None"/>
+<rect x="620.0" y="520.0" width="540.0" height="300.0" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
 <text x="640" y="550" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7787" font-weight="600" text-anchor="start" letter-spacing="1.1">THE PIPELINE, IN NUMBERS</text>
 <rect x="644.0" y="566.0" width="242.0" height="30.0" rx="3" fill="#2f6f8f"/>
 <text x="656" y="586" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="start">landed</text>
@@ -137,6 +137,6 @@
 <text x="644" y="762" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6b7787" font-weight="400" text-anchor="start">junior-titled postings: 5,376 of 231,859 (2.3%)</text>
 <text x="644" y="782" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6b7787" font-weight="400" text-anchor="start">country is derived from the location string; the residual stays 'unknown', never guessed.</text>
 <line x1="40" y1="828" x2="1160" y2="828" stroke="#dfe4ea"/>
-<text x="40" y="852" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#6b7787" font-weight="400" text-anchor="start">HireSignal · generated from warehouse_ats.duckdb by dashboard/build_svg.py</text>
+<text x="40" y="852" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#6b7787" font-weight="400" text-anchor="start">HireSignal · generated from the warehouse marts, never hand-edited</text>
 <text x="1160" y="852" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#6b7787" font-weight="400" text-anchor="end">snapshot: ATS boards, October 2026</text>
 </svg>
