@@ -1,0 +1,26 @@
+{
+ "snapshots": [
+  {
+   "date": "2026-10-29",
+   "landed": 233032,
+   "kept": 231859,
+   "companies": 8388,
+   "remote_pct": 10.4,
+   "junior": 5376,
+   "body_date": 214940,
+   "ats": {
+    "greenhouse": 131855,
+    "ashby": 48592,
+    "workable": 21129,
+    "personio": 9187,
+    "rippling": 8210,
+    "lever": 5564,
+    "workday": 5156,
+    "recruitee": 860,
+    "oraclecloud": 787,
+    "icims": 425,
+    "paylocity": 94
+   }
+  }
+ ]
+}
