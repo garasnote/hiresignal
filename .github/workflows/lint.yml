@@ -59,4 +59,6 @@ jobs:
       # that ships with the repo. A broken model or a failed test blocks the merge.
       - name: dbt build
         working-directory: dbt
-        run: dbt build --profiles-dir . --project-dir . --vars 'postings_parquet: ../data/sample/postings.parquet'
+        run: |
+          dbt build --profiles-dir . --project-dir . \
+            --vars 'postings_parquet: ../data/sample/postings.parquet'
