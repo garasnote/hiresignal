@@ -40,3 +40,23 @@ jobs:
         run: |
           python -m ruff --version
           python -m ruff check .
+
+  dbt-build:
+    name: dbt build (sample corpus)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dbt-duckdb
+        run: pip install "dbt-duckdb>=1.8,<2"
+
+      # The whole star schema plus 25 data tests, against the 5.5k-row sample
+      # that ships with the repo. A broken model or a failed test blocks the merge.
+      - name: dbt build
+        working-directory: dbt
+        run: dbt build --profiles-dir . --project-dir . --vars 'postings_parquet: ../data/sample/postings.parquet'
