@@ -8,7 +8,7 @@ target-path: "target"
 clean-targets: ["target", "dbt_packages"]
 
 vars:
-  postings_parquet: "~/Documents/JobApp/portfolio/hiresignal/data/sample/postings.parquet"
+  postings_parquet: "../data/sample/postings.parquet"
 
 models:
   hiresignal:

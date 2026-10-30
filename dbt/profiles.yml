@@ -3,5 +3,7 @@ hiresignal:
   outputs:
     dev:
       type: duckdb
-      path: "~/Documents/JobApp/portfolio/hiresignal/data/hiresignal_dbt.duckdb"
+      # Relative to the project directory (dbt/), so the same profile works on a
+      # laptop and on a CI runner that has never heard of ~.
+      path: "{{ env_var('DBT_DUCKDB_PATH', '../data/hiresignal_dbt.duckdb') }}"
       threads: 4

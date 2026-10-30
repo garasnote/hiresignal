@@ -7,3 +7,6 @@ warehouse_ats.duckdb
 *.duckdb
 _site/
 dashboard.svg
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
