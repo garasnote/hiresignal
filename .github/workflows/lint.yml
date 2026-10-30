@@ -36,6 +36,14 @@ jobs:
       - name: Byte-compile the pipelines and the dashboard
         run: python -m compileall -q pipeline dashboard scripts
 
+      # A public repo must not carry anyone's home directory, least of all mine.
+      - name: No absolute local paths
+        run: |
+          if git grep -n -I -E '/(home|Users)/[A-Za-z0-9._-]+' -- . ; then
+            echo "::error::absolute local path committed; use a relative path or env_var()"
+            exit 1
+          fi
+
       - name: ruff check
         run: |
           python -m ruff --version
