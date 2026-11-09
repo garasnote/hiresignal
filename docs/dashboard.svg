@@ -118,30 +118,32 @@
 <rect x="48.0" y="856.0" width="1104.0" height="160.0" rx="10" fill="#1f1633" stroke="#362d59"/>
 <text x="70" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">POSTINGS OVER TIME</text>
 <text x="1130" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">fixed 1200-board panel</text>
-<polyline fill="none" stroke="#c2ef4e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="70.0,931.4 187.8,926.6 305.6,955.4 423.3,927.4 541.1,927.7 658.9,928.8 776.7,930.1 894.4,928.1 1012.2,926.9 1130.0,928.1"/>
+<polyline fill="none" stroke="#c2ef4e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="70.0,931.4 176.0,926.6 282.0,955.4 388.0,927.4 494.0,927.7 600.0,928.8 706.0,930.1 812.0,928.1 918.0,926.9 1024.0,928.1 1130.0,934.4"/>
 <circle cx="70.0" cy="931.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
 <text x="70.0" y="917.3711401425178" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,585</text>
-<circle cx="187.8" cy="926.6" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="187.77777777777777" y="912.625" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">28,002</text>
-<circle cx="305.6" cy="955.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="305.55555555555554" y="941.375" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,476</text>
-<circle cx="423.3" cy="927.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="423.3333333333333" y="913.3534243863817" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,938</text>
-<circle cx="541.1" cy="927.7" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="541.1111111111111" y="913.7403998416469" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,904</text>
-<circle cx="658.9" cy="928.8" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="658.8888888888889" y="914.7533650039588" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,815</text>
-<circle cx="776.7" cy="930.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="776.6666666666666" y="916.1191607284244" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,695</text>
-<circle cx="894.4" cy="928.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="894.4444444444445" y="914.1159936658748" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,871</text>
-<circle cx="1012.2" cy="926.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="1012.2222222222222" y="912.8981591448932" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,978</text>
-<circle cx="1130.0" cy="928.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="1130.0" y="914.0590855106889" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,876</text>
+<circle cx="176.0" cy="926.6" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="176.0" y="912.625" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">28,002</text>
+<circle cx="282.0" cy="955.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="282.0" y="941.375" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,476</text>
+<circle cx="388.0" cy="927.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="388.0" y="913.3534243863817" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,938</text>
+<circle cx="494.0" cy="927.7" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="494.0" y="913.7403998416469" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,904</text>
+<circle cx="600.0" cy="928.8" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="600.0" y="914.7533650039588" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,815</text>
+<circle cx="706.0" cy="930.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="706.0" y="916.1191607284244" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,695</text>
+<circle cx="812.0" cy="928.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="812.0" y="914.1159936658748" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,871</text>
+<circle cx="918.0" cy="926.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="918.0" y="912.8981591448932" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,978</text>
+<circle cx="1024.0" cy="928.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="1024.0" y="914.0590855106889" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,876</text>
+<circle cx="1130.0" cy="934.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="1130.0" y="920.4100356294537" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,318</text>
 <text x="70" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="500" text-anchor="start">2026-10-29</text>
-<text x="1130" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="500" text-anchor="end">2026-11-07</text>
-<text x="600.0" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="middle">10 snapshots · first 2026-10-29</text>
+<text x="1130" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="500" text-anchor="end">2026-11-09</text>
+<text x="600.0" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="middle">11 snapshots · first 2026-10-29</text>
 <line x1="48" y1="1042" x2="1152" y2="1042" stroke="#362d59"/>
 <text x="48" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="start">generated from the warehouse marts · never hand-edited</text>
 <text x="1152" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">snapshot: ATS boards, October 2026</text>
