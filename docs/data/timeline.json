@@ -2416,6 +2416,120 @@
     ]
    ],
    "boards": 1200
+  },
+  {
+   "date": "2026-11-21",
+   "scope": "panel",
+   "landed": 28272,
+   "kept": 27136,
+   "companies": 1084,
+   "remote_pct": 7.4,
+   "junior": 635,
+   "body_date": 21820,
+   "dated": 22598,
+   "ats": [
+    [
+     "greenhouse",
+     5821
+    ],
+    [
+     "lever",
+     4795
+    ],
+    [
+     "ashby",
+     3877
+    ],
+    [
+     "workable",
+     3272
+    ],
+    [
+     "workday",
+     2858
+    ],
+    [
+     "recruitee",
+     2733
+    ],
+    [
+     "personio",
+     2101
+    ],
+    [
+     "rippling",
+     1679
+    ]
+   ],
+   "countries": [
+    [
+     "United States",
+     9679
+    ],
+    [
+     "unknown",
+     5569
+    ],
+    [
+     "United Kingdom",
+     4076
+    ],
+    [
+     "Germany",
+     968
+    ],
+    [
+     "Netherlands",
+     691
+    ],
+    [
+     "India",
+     528
+    ],
+    [
+     "France",
+     390
+    ],
+    [
+     "Canada",
+     379
+    ]
+   ],
+   "roles": [
+    [
+     "other",
+     10342
+    ],
+    [
+     "engineering",
+     4133
+    ],
+    [
+     "healthcare",
+     2001
+    ],
+    [
+     "sales",
+     1936
+    ],
+    [
+     "data / ML",
+     1802
+    ],
+    [
+     "operations",
+     1246
+    ],
+    [
+     "marketing",
+     714
+    ],
+    [
+     "product",
+     708
+    ]
+   ],
+   "boards": 1200
   }
  ]
 }
