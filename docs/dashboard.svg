@@ -118,56 +118,58 @@
 <rect x="48.0" y="856.0" width="1104.0" height="160.0" rx="10" fill="#1f1633" stroke="#362d59"/>
 <text x="70" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="600" text-anchor="start" letter-spacing="1.4">POSTINGS OVER TIME</text>
 <text x="1130" y="888" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#bdb8c0" font-weight="400" text-anchor="end">fixed 1200-board panel</text>
-<polyline fill="none" stroke="#c2ef4e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="70.0,931.1 118.2,926.6 166.4,954.0 214.5,927.3 262.7,927.7 310.9,928.7 359.1,930.0 407.3,928.0 455.5,926.9 503.6,928.0 551.8,934.0 600.0,928.4 648.2,928.3 696.4,935.3 744.5,955.4 792.7,934.6 840.9,936.0 889.1,938.2 937.3,952.9 985.5,937.1 1033.6,937.2 1081.8,936.0 1130.0,936.0"/>
+<polyline fill="none" stroke="#c2ef4e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="70.0,931.1 116.1,926.6 162.2,954.0 208.3,927.3 254.3,927.7 300.4,928.7 346.5,930.0 392.6,928.0 438.7,926.9 484.8,928.0 530.9,934.0 577.0,928.4 623.0,928.3 669.1,935.3 715.2,955.4 761.3,934.6 807.4,936.0 853.5,938.2 899.6,952.9 945.7,937.1 991.7,937.2 1037.8,936.0 1083.9,936.0 1130.0,937.9"/>
 <circle cx="70.0" cy="931.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
 <text x="70.0" y="917.1439408217112" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,585</text>
-<circle cx="118.2" cy="926.6" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="118.18181818181819" y="912.625" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">28,002</text>
-<circle cx="166.4" cy="954.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="166.36363636363637" y="939.9987278552582" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,476</text>
-<circle cx="214.5" cy="927.3" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="214.54545454545453" y="913.3185544666416" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,938</text>
-<circle cx="262.7" cy="927.7" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="262.72727272727275" y="913.6870052770448" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,904</text>
-<circle cx="310.9" cy="928.7" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="310.9090909090909" y="914.6514794572182" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,815</text>
-<circle cx="359.1" cy="930.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="359.09090909090907" y="915.9518940821712" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,695</text>
-<circle cx="407.3" cy="928.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="407.27272727272725" y="914.0446192989069" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,871</text>
-<circle cx="455.5" cy="926.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="455.45454545454544" y="912.8850829249906" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,978</text>
-<circle cx="503.6" cy="928.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="503.6363636363636" y="913.9904353562006" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,876</text>
-<circle cx="551.8" cy="934.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="551.8181818181818" y="920.0373633622314" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,318</text>
-<circle cx="600.0" cy="928.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="600.0" y="914.3913965322276" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,839</text>
-<circle cx="648.2" cy="928.3" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="648.1818181818181" y="914.32637580098" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,845</text>
-<circle cx="696.4" cy="935.3" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="696.3636363636364" y="921.2727572559367" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,204</text>
-<circle cx="744.5" cy="955.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="744.5454545454545" y="941.375" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,349</text>
-<circle cx="792.7" cy="934.6" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="792.7272727272727" y="920.5683660007538" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,269</text>
-<circle cx="840.9" cy="936.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="840.9090909090909" y="921.9771485111195" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,139</text>
-<circle cx="889.1" cy="938.2" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="889.0909090909091" y="924.2420373162457" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">26,930</text>
-<circle cx="937.3" cy="952.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="937.2727272727273" y="938.8717018469657" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,580</text>
-<circle cx="985.5" cy="937.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="985.4545454545455" y="923.0716641537882" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,038</text>
-<circle cx="1033.6" cy="937.2" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="1033.6363636363635" y="923.223379193366" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,024</text>
-<circle cx="1081.8" cy="936.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="1081.818181818182" y="922.0096588767433" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,136</text>
-<circle cx="1130.0" cy="936.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
-<text x="1130.0" y="921.998822088202" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,137</text>
+<circle cx="116.1" cy="926.6" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="116.08695652173913" y="912.625" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">28,002</text>
+<circle cx="162.2" cy="954.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="162.17391304347825" y="939.9987278552582" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,476</text>
+<circle cx="208.3" cy="927.3" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="208.2608695652174" y="913.3185544666416" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,938</text>
+<circle cx="254.3" cy="927.7" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="254.34782608695653" y="913.6870052770448" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,904</text>
+<circle cx="300.4" cy="928.7" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="300.4347826086956" y="914.6514794572182" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,815</text>
+<circle cx="346.5" cy="930.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="346.5217391304348" y="915.9518940821712" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,695</text>
+<circle cx="392.6" cy="928.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="392.60869565217394" y="914.0446192989069" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,871</text>
+<circle cx="438.7" cy="926.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="438.69565217391306" y="912.8850829249906" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,978</text>
+<circle cx="484.8" cy="928.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="484.7826086956522" y="913.9904353562006" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,876</text>
+<circle cx="530.9" cy="934.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="530.8695652173913" y="920.0373633622314" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,318</text>
+<circle cx="577.0" cy="928.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="576.9565217391305" y="914.3913965322276" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,839</text>
+<circle cx="623.0" cy="928.3" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="623.0434782608696" y="914.32637580098" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,845</text>
+<circle cx="669.1" cy="935.3" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="669.1304347826087" y="921.2727572559367" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,204</text>
+<circle cx="715.2" cy="955.4" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="715.2173913043479" y="941.375" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,349</text>
+<circle cx="761.3" cy="934.6" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="761.304347826087" y="920.5683660007538" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,269</text>
+<circle cx="807.4" cy="936.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="807.3913043478261" y="921.9771485111195" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,139</text>
+<circle cx="853.5" cy="938.2" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="853.4782608695652" y="924.2420373162457" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">26,930</text>
+<circle cx="899.6" cy="952.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="899.5652173913044" y="938.8717018469657" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">25,580</text>
+<circle cx="945.7" cy="937.1" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="945.6521739130435" y="923.0716641537882" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,038</text>
+<circle cx="991.7" cy="937.2" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="991.7391304347826" y="923.223379193366" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,024</text>
+<circle cx="1037.8" cy="936.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="1037.8260869565217" y="922.0096588767433" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,136</text>
+<circle cx="1083.9" cy="936.0" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="1083.913043478261" y="921.998822088202" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">27,137</text>
+<circle cx="1130.0" cy="937.9" r="4" fill="#150f23" stroke="#c2ef4e" stroke-width="2"/>
+<text x="1130.0" y="923.9060968714663" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">26,961</text>
 <text x="70" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="500" text-anchor="start">2026-10-29</text>
-<text x="1130" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="500" text-anchor="end">2026-11-22</text>
-<text x="600.0" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="middle">23 snapshots · first 2026-10-29</text>
+<text x="1130" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="500" text-anchor="end">2026-11-23</text>
+<text x="600.0" y="984" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="middle">24 snapshots · first 2026-10-29</text>
 <line x1="48" y1="1042" x2="1152" y2="1042" stroke="#362d59"/>
 <text x="48" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="start">generated from the warehouse marts · never hand-edited</text>
 <text x="1152" y="1066" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#bdb8c0" font-weight="400" text-anchor="end">snapshot: ATS boards, October 2026</text>
